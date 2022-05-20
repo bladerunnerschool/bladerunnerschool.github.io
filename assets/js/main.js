@@ -362,7 +362,7 @@ else if ( document.URL.includes('Trad.html') ) {
 }
 // AAAAAAAAAAAAAAAAAAAAAAAAAA 
   	
-				}
+				
 					}
 
 				// Otherwise, check for a matching article.
