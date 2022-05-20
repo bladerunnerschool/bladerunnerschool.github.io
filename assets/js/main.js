@@ -339,7 +339,7 @@ else if ( document.URL.includes('Trad.html') ) {
   // non faccio niente
 }
 // AAAAAAAAAAAAAAAAAAAAAAAAAA 
-  	}
+  	
 
 						break;
 
