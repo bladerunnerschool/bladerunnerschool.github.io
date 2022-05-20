@@ -323,6 +323,23 @@
 						// Article visible? Hide.
 							if ($body.hasClass('is-article-visible'))
 								$main._hide(true);
+						// AAAAAAAAAAAAAAAAAAAAAAAAAA 
+// pagina in italiano = home page
+if ( document.URL.includes('index.html') ) {
+  // sistemo la sorgente dell'iframe ogni volta che chiudo uno finestra, anche se non quella giusta
+  document.getElementById('itaIframe').src='https://www.youtube.com/embed/1BY0XjWtc-c';
+} 
+// pagina in inglese = Trad.html
+else if ( document.URL.includes('Trad.html') ) {
+  // sistemo la sorgente dell'iframe ogni volta che chiudo uno finestra, anche se non quella giusta
+  document.getElementById('engIframe').src='https://www.youtube.com/embed/W_9rhPDLHWk';
+}
+// altre pagine
+  else {
+  // non faccio niente
+}
+// AAAAAAAAAAAAAAAAAAAAAAAAAA 
+  	}
 
 						break;
 
