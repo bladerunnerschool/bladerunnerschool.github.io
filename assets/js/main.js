@@ -335,17 +335,7 @@
 
 			$window.on('hashchange', function(event) {
 
-				// Empty hash?
-					if (location.hash == ''
-					||	location.hash == '#') {
-
-						// Prevent default.
-							event.preventDefault();
-							event.stopPropagation();
-
-						// Hide.
-							$main._hide();
-// AAAAAAAAAAAAAAAAAAAAAAAAAA 
+				// AAAAAAAAAAAAAAAAAAAAAAAAAA 
 // pagina in italiano = home page
 if ( document.URL.includes('index.html') ) {
   // sistemo la sorgente dell'iframe ogni volta che chiudo uno finestra, anche se non quella giusta
@@ -361,7 +351,17 @@ else if ( document.URL.includes('Trad.html') ) {
   // non faccio niente
 }
 // AAAAAAAAAAAAAAAAAAAAAAAAAA 
-  	
+				
+				// Empty hash?
+					if (location.hash == ''
+					||	location.hash == '#') {
+
+						// Prevent default.
+							event.preventDefault();
+							event.stopPropagation();
+
+						// Hide.
+							$main._hide();
 				
 					}
 
